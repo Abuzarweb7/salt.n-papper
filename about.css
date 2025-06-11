@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html{
+font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+
+}
+
+body{
+background-color:var(--black);
+color: var(--white);
+
+}
+@font-face {
+font-family: futurak;
+src: url(futurak\ \(4\).ttf );
+
+
+
+}
+
+
+
+:root{
+--white:#ffffff;    
+--black: #000000;
+--red: #eb3238 ;
+--light-gray:#e0e0e0;
+
+}
+
+header{
+    border-bottom: 1px solid rgb(61, 49, 49);
+}
+.parent{
+margin-top: 6px;
+display: flex;
+justify-content: space-around;
+align-items:center;
+
+flex-wrap: wrap;
+
+}
+
+
+
+
+.logo-image{
+width: 165px;
+margin-top: 3px;
+
+
+
+
+}
+
+.navbar-items{
+display: flex;
+flex-wrap: wrap;
+gap: 16px;
+
+}
+
+
+.nav-item{
+margin-top: 30px;
+text-decoration: none;
+font-size: 1.7rem;
+color: var(--white);
+flex-wrap: wrap;
+}
+
+
+
+
+
+
+.website-btn1{
+font-size: 1.4rem;
+padding: 14px;
+margin-left: 11px;
+border: 1px solid white;
+background-color: black;
+color: aliceblue;
+border-radius: 30px;
+
+}
+.website-btn2{
+font-size: 1.4rem;
+padding: 14px;
+border:none;
+background-color:#ff0000;
+color: aliceblue;
+border-radius: 30px;
+
+
+}
+
+.icon-span{
+background-color: var(--white);
+padding: 5px 6px;
+border-radius: 24px;
+color: var(--red);
+}
+.introduction h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+.introduction p{
+    text-align: center;
+    color: var(--light-gray);
+    font-size: 1.6rem;
+}
+.restaurant h1{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+.restaurant p{
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--light-gray);
+}
+.font-heading7{
+ font-family: futurak;
+}
+.restaurant-sec{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+.restaurant-img img{
+    width: 560px;
+    border-radius: 10px;
+}
+.village-restaurant{
+ display: flex;
+ justify-content: center;
+ gap: 80px;
+ position: relative;
+ top: 120px;
+
+}
+    .village-restaurant-img img{
+      width: 580px;
+      border-radius: 10px;
+    }
+    .franchises-restaurants{
+
+    }
+       .text2{
+text-align: center;
+position: relative;
+top: 200px;
+font-size: 3.2rem;
+font-weight: 600;
+       }
+    .islamabad{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 250px;
+        gap: 20px;
+    }
+    .content{
+        font-size: 2.1rem;
+        position: relative;
+        top: 50px;
+          font-weight: 400;
+    }
+    .content p{
+        color: var(--light-gray);
+        font-size: 1.5rem;
+    }
+    .faisalabad{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top: 300px;
+     gap: 80px;
+    }
+    .faisalabad-content h1{
+        font-size: 3.2rem;
+                font-weight: 400;
+    }
+    .faisalabad-content p{
+        font-size: 1.5rem;
+        color: var(--light-gray);
+
+    }
+    .Bahawalpur{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 340px;
+        gap: 60px;
+    }
+  .Bahawalpur-head{
+font-size: 3.2rem;
+font-weight: 400;
+  }
+  .Bahawalpur-para{
+    font-size: 1.5rem;
+    color: var(--light-gray);
+  }
+  .Express-sec{
+position: relative;
+top: 400px;
+  }
+  .Express-head{
+text-align: center;
+font-size: 3rem;
+font-weight: 600;
+  }
+  .Express-para{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--light-gray);
+  }
+  .Express-img img{
+    width: 540px;
+    border-radius: 10px;
+  }
+  .Express-sec2{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+  }
+  .Express-text{
+    font-size: 1.5rem;
+    color: var(--light-gray);
+  }
+  .Express-franchise-location{
+    position: relative;
+    top: 450px;
+  }
+  .Express-head2{
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 800;
+  }
+  .parrent1{
+
+position: relative;
+top: 200px;
+right: 120px;
+display: flex;
+justify-content: center;
+
+}
+.box1-heading{
+  font-size: 2rem;
+  font-weight: 500;
+  position: relative;
+  top: 20px;
+}
+.font-heading6{
+  font-size: 2.2rem;
+  
+}
+.area1{
+  font-size: 1.5rem;
+  color: var(--red);
+  position: relative;
+  right: 340px;
+  top: 20px;
+}
+.location{
+font-size: 1.5rem;
+color: var(--light-gray);
+position: relative;
+top: 30px;
+}
+.content-num{
+font-size: 1.5rem;
+color: var(--light-gray);
+position: relative;
+top: 40px;
+left: 80px;
+}
+.box1-btn{
+  font-size: 1.4rem;
+padding: 14px;
+
+background-color: var(--black);
+border-color: var(--white);
+color: aliceblue;
+border-radius: 30px;
+position: relative;
+top: 70px;
+left: 70px;
+}
+.box2-btn{
+ font-size: 1.4rem;
+padding: 14px;
+
+background-color: var(--black);
+border-color: var(--white);
+color: aliceblue;
+border-radius: 30px;
+position: relative;
+top: 50px;
+right: 150px;
+}
+.box3-btn{
+ font-size: 1.4rem;
+padding: 14px;
+
+background-color: var(--black);
+border-color: var(--white);
+color: aliceblue;
+border-radius: 30px;
+position: relative;
+top: 50px;
+right: 150px;
+}
+.parrent2{
+  display: flex;
+  position: relative;
+  top: 350px;
+ left: 170px;
+}
+.parrent3{
+  display: flex;
+  position: relative;
+  top: 500px;
+  left: 170px;
+}
+.parrent3-img{
+  width: 356px;
+}
+.parrent3-image{
+  max-width: 306px;
+}
+.area3{
+  font-size: 1.5rem;
+  color: var(--red);
+  position: relative;
+  right: 300px;
+  top: 20px;
+}
+.Express-franchise-braches{
+position: relative;
+top: 300px;
+left: 150px;
+}
+.parrent3-img{
+    width: 350px;
+    height: 250px;
+}
+.parrent3{
+   position: relative;
+   left: 335px;
+top: 750px;
+  
+
+}
+.Village-Franchise{
+  position: relative;
+  top: 900px;
+}
+.village-head{
+  text-align: center;
+  font-size: 3.2rem;
+}
+.village-parrent{
+  display: flex;
+position: relative;
+left: 320px;
+top: 50px;
+  gap: 40px;
+}
+.village-img img{
+  width: 546px;
+}
+.village-span{
+  color: var(--red);
+  font-size: 1.4rem;
+}
+.village-text{
+  font-size: 3.2rem;
+}
+  .village-num-location{
+    font-size: 1.5rem;
+    color: var(--light-gray);
+  }
+   footer{
+  background-color:rgb(39, 38, 38);
+  position: relative;
+  top: 1100px;
+ }
+.socail-section img{
+    width: 245px;
+   position: relative;
+   left: 200px;
+   top: 100px;
+   margin: 15px;
+}
+.socail-head{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 3.5rem;
+}
+.fotter-section{
+  position: relative;
+  top: 220px;
+}
+.policy-section{
+  margin-left: 350px;
+}
+.footer-contents{
+color: var(--light-gray);
+  font-size: 1.5rem;
+}
+.terms{
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: var(--light-gray);
+}
+.site-links{
+  display: flex;
+justify-content: center;
+position: relative;
+bottom: 180px;
+}
+.links{
+ position: relative;
+ bottom: 30px;
+ left: 50px;
+}
+li{
+  list-style: none;
+  font-size: 1.4rem;
+  color: var(--light-gray);
+}
+.contact-us-sec{
+text-align: center;
+position: relative;
+bottom: 380px;
+left: 250px;
+}
+.contect-element{
+  color: var(--white);
+  font-size: 1.4rem;
+}
+.office{
+  font-size: 1.6rem;
+ 
+}
+.office-address{
+font-size: 1.5rem;
+color: var(--light-gray);
+}
+.office-number{
+    font-size: 1.6rem;
+}
+.head-office-num{
+font-size: 1.5rem;
+color: var(--light-gray);
+
+}
+.email-address{
+  font-size: 1.6rem;
+}
+.Email{
+  font-size: 1.5rem;
+color: var(--light-gray);
+
+}
+.Free-delivery{
+   font-size: 1.6rem;
+}
+.free-delivery-numbers{
+  font-size: 1.5rem;
+color: var(--light-gray);
+
+}
+.socail-icons{
+text-align: center;
+position: relative;
+bottom: 650px;
+left: 500px;
+}
+.socail-icons h1{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.socail-icon{
+  width: 40px;
+  border-radius: 10px;
+}
+.download-plateform{
+  display: flex;
+  justify-content: center;
+ position: relative;
+ left:500px;
+ bottom: 600px;
+}
+.copyright-section{
+  color: var(--white);
+  border: none;
+  border:2px solid hwb(0 0% 100%) ;
+  height: 50px;
+  position: relative;
+  bottom: 220px;
+  background-color: var(--black);
+  
+}
+.copyright-content{
+  font-size: 1.4rem;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.powered{
+  color: var(--white);
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+  left: 400px;
+bottom: 17px;
+
+}
