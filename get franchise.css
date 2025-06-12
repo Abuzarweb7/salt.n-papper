@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+
+}
+
+html{
+font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+
+}
+
+body{
+background-color:var(--black);
+color: var(--white);
+
+}
+@font-face {
+font-family: futurak;
+src: url(futurak\ \(4\).ttf );
+
+
+
+}
+
+
+
+:root{
+--white:#ffffff;    
+--black: #000000;
+--red: #eb3238 ;
+--light-gray:#e0e0e0;
+--Orange:#ffc107;
+--light-orange:#fff59f;
+
+}
+
+header{
+    border-bottom: 1px solid rgb(61, 49, 49);
+}
+.parent{
+margin-top: 6px;
+display: flex;
+justify-content: space-around;
+align-items:center;
+
+flex-wrap: wrap;
+
+}
+
+
+
+
+.logo-image{
+width: 165px;
+margin-top: 3px;
+
+
+
+
+}
+
+.navbar-items{
+display: flex;
+flex-wrap: wrap;
+gap: 16px;
+
+}
+
+
+.nav-item{
+margin-top: 30px;
+text-decoration: none;
+font-size: 1.7rem;
+color: var(--white);
+flex-wrap: wrap;
+}
+
+
+
+
+
+
+.website-btn1{
+font-size: 1.4rem;
+padding: 14px;
+margin-left: 11px;
+border: 1px solid white;
+background-color: black;
+color: aliceblue;
+border-radius: 30px;
+
+}
+.website-btn2{
+font-size: 1.4rem;
+padding: 14px;
+border:none;
+background-color:#ff0000;
+color: aliceblue;
+border-radius: 30px;
+
+
+}
+
+.icon-span{
+background-color: var(--white);
+padding: 5px 6px;
+border-radius: 24px;
+color: var(--red);
+}
+.get-frach{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 4rem;
+}
+.parrent{
+  position: relative;
+  left: 350px;
+  top: 100px;
+}
+input{
+    width: 550px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+label{
+    position: relative;
+    bottom: 35px;
+    left:60px;
+    font-size: 1.2rem;
+    color: var(--light-gray);
+}
+.adjest-input1{
+    position: relative;
+    right: 35px;
+    top: 5px;
+}
+
+.adjest-input2{
+    position: relative;
+    left: 550px;
+    bottom: 35px;
+}
+.adjest-input3{
+position: relative;
+right: 19px;
+bottom: 40px;
+}
+select{
+    width: 550px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.adjest-input4{
+    position: relative;
+    left: 10px;
+}
+.adjest-input5{
+position: relative;
+left: 570px;
+bottom: 40px;
+}
+.Franchise-btn{
+padding: 20px;
+width: 170px;
+border-radius: 50px;
+border: none;
+background-color: var(--Orange);
+color: var(--white);
+position: relative;
+left: 40px;
+}
+.Franchise-btn:hover{
+    background-color: var(--light-orange);
+
+}
+footer{
+  background-color:rgb(39, 38, 38);
+  position: relative;
+  top: 250px;
+ }
+.socail-section img{
+    width: 245px;
+   position: relative;
+   left: 200px;
+   top: 100px;
+   margin: 15px;
+}
+.socail-head{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 3.5rem;
+}
+.fotter-section{
+  position: relative;
+  top: 220px;
+}
+.policy-section{
+  margin-left: 350px;
+}
+.footer-contents{
+color: var(--light-gray);
+  font-size: 1.5rem;
+}
+.terms{
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: var(--light-gray);
+}
+.site-links{
+  display: flex;
+justify-content: center;
+position: relative;
+bottom: 180px;
+}
+.links{
+ position: relative;
+ bottom: 30px;
+ left: 50px;
+}
+li{
+  list-style: none;
+  font-size: 1.4rem;
+  color: var(--light-gray);
+}
+.contact-us-sec{
+text-align: center;
+position: relative;
+bottom: 380px;
+left: 250px;
+}
+.contect-element{
+  color: var(--white);
+  font-size: 1.4rem;
+}
+.office{
+  font-size: 1.6rem;
+ 
+}
+.office-address{
+font-size: 1.5rem;
+color: var(--light-gray);
+}
+.office-number{
+    font-size: 1.6rem;
+}
+.head-office-num{
+font-size: 1.5rem;
+color: var(--light-gray);
+
+}
+.email-address{
+  font-size: 1.6rem;
+}
+.Email{
+  font-size: 1.5rem;
+color: var(--light-gray);
+
+}
+.Free-delivery{
+   font-size: 1.6rem;
+}
+.free-delivery-numbers{
+  font-size: 1.5rem;
+color: var(--light-gray);
+
+}
+.socail-icons{
+text-align: center;
+position: relative;
+bottom: 650px;
+left: 500px;
+}
+.socail-icons h1{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.socail-icon{
+  width: 40px;
+  border-radius: 10px;
+}
+.download-plateform{
+  display: flex;
+  justify-content: center;
+ position: relative;
+ left:500px;
+ bottom: 600px;
+}
+.copyright-section{
+  color: var(--white);
+  border: none;
+  border:2px solid hwb(0 0% 100%) ;
+  height: 50px;
+  position: relative;
+  bottom: 220px;
+  background-color: var(--black);
+  
+}
+.copyright-content{
+  font-size: 1.4rem;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.powered{
+  color: var(--white);
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+  left: 400px;
+bottom: 17px;
+
+}

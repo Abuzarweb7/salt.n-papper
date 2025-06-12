@@ -936,6 +936,7 @@ right: 150px;
   align-items: center;
   gap: 9px;
   border-radius: 5px;
+  width: 400px;
 }
 .card-box > h6 {
   color: var(--red);
