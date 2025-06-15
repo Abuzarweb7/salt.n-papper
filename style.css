@@ -1001,12 +1001,7 @@ right: 150px;
     top: 250px;
     right: 420px;
 } */
- footer{
-  background-color:rgb(39, 38, 38);
-  position: relative;
-  top: 150px;
- }
-.socail-section img{
+ .socail-section img{
     width: 245px;
    position: relative;
    left: 200px;
@@ -1019,122 +1014,267 @@ right: 150px;
     top: 50px;
     font-size: 3.5rem;
 }
-.fotter-section{
-  position: relative;
-  top: 220px;
-}
-.policy-section{
-  margin-left: 350px;
-}
-.footer-contents{
-color: var(--light-gray);
-  font-size: 1.5rem;
-}
-.terms{
-  margin-top: 10px;
-  font-size: 1.5rem;
-  color: var(--light-gray);
-}
-.site-links{
-  display: flex;
+.section-footer{
+display: flex;
+flex-direction: row;
 justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+height: 80vh;
+
 position: relative;
-bottom: 180px;
+left: 20px;
+gap: 50px;
+
+
+
+
+
 }
+
+
+.para-policy{
+color:var(--light-gray);
+margin: 30px;
+line-height: 1.4;
+font-family: "Inter", sans-serif;
+font-size: 1.5rem;
+font-weight: 400;
+
+
+}
+
+
+
+.terms{
+font-size: 1.5rem;
+text-decoration: none;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+position: relative;
+left: 30px;
+color: var(--light-gray);
+margin: 10px;
+}
+
+.Privacy-logo{
+position: relative;
+left: 30px;
+
+
+
+
+}
+
+.links-heading{
+font-size: 1.7rem;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+
+
+}
+
+
+
+
 .links{
- position: relative;
- bottom: 30px;
- left: 50px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+font-size: 1.5rem;
+color: var(--light-gray);
+font-weight: 500;
+line-height: 3.2;
+
 }
-li{
-  list-style: none;
-  font-size: 1.4rem;
+
+.ContactUs-heading1{
   color: var(--light-gray);
-}
-.contact-us-sec{
-text-align: center;
-position: relative;
-bottom: 380px;
-left: 250px;
-}
-.contect-element{
-  color: var(--white);
-  font-size: 1.4rem;
-}
-.office{
-  font-size: 1.6rem;
- 
-}
-.office-address{
-font-size: 1.5rem;
-color: var(--light-gray);
-}
-.office-number{
-    font-size: 1.6rem;
-}
-.head-office-num{
-font-size: 1.5rem;
-color: var(--light-gray);
+font-size: 1.7rem;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+
+
 
 }
-.email-address{
-  font-size: 1.6rem;
+
+.ContactUs-heading2{
+font-size: 1.7rem;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+line-height: 2.5;
+
+
 }
+
+
+
+.ContactUs-para{
+font-size: 1.5rem;
+font-family: "Inter", sans-serif;
+font-weight: 300;
+
+
+
+
+
+}
+
+.head-office-number{
+  color: var(--white);
+font-size: 1.8rem;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+margin-top: 10px;
+
+
+}
+
+.head-office-number{
+  color: var(--light-gray);
+font-size: 1.5rem;
+text-decoration: none;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+line-height: 1.7;
+
+
+
+
+}
+.Email-Address-heading{
+font-size: 1.7rem;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+line-height: 1.7;
+
+
+
+}
+
 .Email{
-  font-size: 1.5rem;
-color: var(--light-gray);
+text-decoration: none;
+font-family: "Inter", sans-serif;
+color:var(--light-gray);
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 1.7;
 
 }
-.Free-delivery{
-   font-size: 1.6rem;
-}
-.free-delivery-numbers{
-  font-size: 1.5rem;
-color: var(--light-gray);
+
+
+
+.delivery-heading{
+font-size: 1.7rem;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+line-height: 1.7;
+
+
+
 
 }
-.socail-icons{
-text-align: center;
+
+.delivery-number{
+font-size: 1.5rem;
+text-decoration: none;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+line-height: 1.7;
+color: var(--light-gray);
+
+
+
+
+}
+
+.Follow-us{
 position: relative;
-bottom: 650px;
-left: 500px;
-}
-.socail-icons h1{
-  font-size: 2rem;
-  font-weight: 500;
-}
-.socail-icon{
-  width: 40px;
-  border-radius: 10px;
-}
-.download-plateform{
-  display: flex;
-  justify-content: center;
- position: relative;
- left:500px;
- bottom: 600px;
-}
-.copyright-section{
-  color: var(--white);
-  border: none;
-  border:2px solid hwb(0 0% 100%) ;
-  height: 50px;
-  position: relative;
-  bottom: 220px;
-  background-color: var(--black);
-  
-}
-.copyright-content{
-  font-size: 1.4rem;
-  margin-left: 300px;
-  margin-top: 10px;
-}
-.powered{
-  color: var(--white);
-  font-size: 1.4rem;
-  text-align: center;
-  position: relative;
-  left: 400px;
-bottom: 17px;
+bottom: 150px;
 
+
+
+}
+
+
+
+
+
+
+
+.Follow-us-heading{
+font-size: 1.7rem;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+/* line-height: 3.4; */
+position: relative;
+top: 30px;
+
+}
+
+.social-link{
+text-decoration: none;
+color: var(--red);
+font-size: 3.7rem;
+position: relative;
+top: 40px;
+
+}
+
+.app-store{
+text-decoration: none;
+margin-top: 20px;
+margin: 6px;
+position: relative;
+top: 30px;
+
+}
+.google-store{
+text-decoration: none;
+margin-top: 20px;
+margin: 6px;
+position: relative;
+top: 60px;
+
+
+
+
+
+}
+
+.snp-main{
+display: flex;
+justify-content: space-between;
+
+}
+
+.spn-2025{
+font-size: 1.7rem;
+color:var(--light-gray);
+position: relative;
+left: 290px;
+bottom: 10px;
+}
+
+.spn-2025{
+color: var(--light-gray);
+font-weight: 400;
+
+}
+
+
+
+
+
+
+
+.tossdown{
+text-decoration: none;
+color: var(--light-gray);
+font-family: "Inter", sans-serif;
+font-size: 1.3rem;
+font-weight: 400;
+position: relative;
+right: 400px;
+top: 3px;
 }

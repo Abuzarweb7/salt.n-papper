@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 *{
@@ -37,6 +37,8 @@ src: url(futurak\ \(4\).ttf );
 --black: #000000;
 --red: #eb3238 ;
 --light-gray:#e0e0e0;
+--Orange:#ffc107;
+--light-orange:#fff59f;
 
 }
 
@@ -113,58 +115,156 @@ padding: 5px 6px;
 border-radius: 24px;
 color: var(--red);
 }
-.publication-item{
-    display: flex;
-    gap: 80px;
+.conatiner{
+    border: 2px solid rgb(252, 0, 0);
+    height: 900px;
+    background-image: url(container.webp);
+    border: none;
+
+   
 }
-.publication1{
-    border: 1px solid rgb(61, 49, 49) ;
-    height: 600px;
-    width: 30%;
+.text{
+display: flex;
+justify-content:center;
+flex-direction: column;
+align-items: center;
+position: relative;
+top: 400px;
+
+}
+.content1{
+    font-size: 4.3rem;
+    font-weight: 400;
+}
+.content2{
+    font-size: 7rem;
     position: relative;
-    left: 300px;
-    top: 100px;
+    bottom: 70px;
+
 }
-.publication1 img{
+.name-input input{
+    width: 230px;
+    height: 30px;
+    border: none;
+    position: relative;
+right: 170px;
+border: none;
+
+top: 30px;
+}
+.num-input input{
+      width: 230px;
+    height: 30px;
+    border: none;
+    position: relative;
+left: 170px;
+bottom: 3.5px;
+
+}
+
+.type-text{
+    position: relative;
+    bottom: 110px;
+    font-size: 1.6rem;
+}
+.Feedback-sec{
+  text-align: center ;
+}
+select{
     width: 600px;
+    height: 40px;
+    border: none;
 }
-.publication2{
-     border: 1px solid rgb(61, 49, 49) ;
-    height: 600px;
-    width: 30%;
+.input-date input{
+width: 594px;
+height: 35px;   border: none;
+}
+.input-email input{
+
+
+    width: 593px;
+height: 35px;
+   border: none;
+}
+textarea{
+    width: 32%;
+    height: 100px;
+}
+.fav-item{
+    font-size: 2rem;
+}
+.fav label{
     position: relative;
-    left: 300px;
-    top: 100px;
+    bottom: 25px;
+    left: 10px;
+font-size: 1.2rem;
+color: var(--light-gray);}
+.fav input{
+   width: 200px;
+    height: 30px;
+    border: none;
+   
+bottom: 3.5px;
+
 }
-.publication2 img{
-    width: 600px;
-}
-.publication-text{
-    font-size: 3.2rem;
-}
-.publication-contents{
-    text-align: center;
+.menu{
     position: relative;
-    top: 200px;
+    right: 140px;
 }
-.publication-resturant{
+.current-menu{
     font-size: 2rem;
 }
-.Liberty-Market{
-     font-size: 2rem;
+.menu label{
+font-size: 1.6rem;
 }
-.Village-Lahore{
+.no-input{
+    position: relative;
+    left: 200px;
+    bottom: 22px;
+}
+.food-item-sec input{
+    width: 200px;
+    height: 30px;
+    border: none;
+   
+bottom: 3.5px;
+}
+.food-item-sec label{
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+font-size: 1.2rem;
+color: var(--light-gray);}
+.food-items{
+    position: relative;
+    bottom: 20px;
+    font-size: 2rem;
+    right: 75px;
+}
+.add-web{
     font-size: 2rem;
 }
-.islamabad{
-     font-size: 2rem;
+.web-sec{
+    position: relative;
+    right: 80px;
 }
-.faisalabad{
-    font-size: 2rem;
+.web-sec label{
+    font-size: 1.6rem;
 }
-.Restaurant-address-contect{
-    font-size: 1.4rem;
-    color: var(--light-gray);
+.Franchise-btn{
+padding: 20px;
+width: 170px;
+border-radius: 50px;
+border: none;
+background-color: var(--Orange);
+color: var(--white);
+position: relative;
+top: 20px;
+right: 240px;
+}
+.Franchise-btn:hover{
+    background-color: var(--light-orange);
+
 }
 .section-footer{
 display: flex;
@@ -174,11 +274,9 @@ align-items: center;
 flex-wrap: wrap;
 width: 100%;
 height: 80vh;
-
 position: relative;
 left: 20px;
 gap: 50px;
-top: 100px;
 
 
 
@@ -214,6 +312,7 @@ margin: 10px;
 .Privacy-logo{
 position: relative;
 left: 30px;
+width: 165px;
 
 
 
@@ -430,4 +529,4 @@ font-weight: 400;
 position: relative;
 right: 400px;
 top: 3px;
-}
+}   

@@ -113,58 +113,74 @@ padding: 5px 6px;
 border-radius: 24px;
 color: var(--red);
 }
-.publication-item{
-    display: flex;
-    gap: 80px;
+.conatiner{
+    border: 2px solid rgb(252, 0, 0);
+    height: 900px;
+    background-image: url(container.webp);
+    border: none;
+
+   
 }
-.publication1{
-    border: 1px solid rgb(61, 49, 49) ;
-    height: 600px;
-    width: 30%;
-    position: relative;
-    left: 300px;
-    top: 100px;
+.text{
+display: flex;
+justify-content:center;
+flex-direction: column;
+align-items: center;
+position: relative;
+top: 400px;
+
 }
-.publication1 img{
-    width: 600px;
+.contact-heading{
+    font-size:2.3rem;
 }
-.publication2{
-     border: 1px solid rgb(61, 49, 49) ;
-    height: 600px;
-    width: 30%;
-    position: relative;
-    left: 300px;
-    top: 100px;
+.content1{
+    font-size: 4.3rem;
+    font-weight: 400;
 }
-.publication2 img{
-    width: 600px;
+.content2{
+    font-size: 10rem;
+ 
+
 }
-.publication-text{
-    font-size: 3.2rem;
+.type-text{
+    font-size: 1.8rem;
 }
-.publication-contents{
+iframe{
+    width: 50%;
+    height: 250px;
+}
+.Foodconsults{
     text-align: center;
-    position: relative;
-    top: 200px;
+} 
+.foodconsults-text{
+    font-size: 3rem;
 }
-.publication-resturant{
-    font-size: 2rem;
+.foodconsults-para{
+font-size: 1.8rem;
 }
-.Liberty-Market{
-     font-size: 2rem;
+
+.head-office-head{
+font-size: 2rem;
 }
-.Village-Lahore{
-    font-size: 2rem;
-}
-.islamabad{
-     font-size: 2rem;
-}
-.faisalabad{
-    font-size: 2rem;
-}
-.Restaurant-address-contect{
-    font-size: 1.4rem;
+.head-office-num{
     color: var(--light-gray);
+    font-size: 1.6rem;
+}
+.head-office-phone{
+       color: var(--light-gray);
+    font-size: 1.6rem;
+}
+.devilry-num{
+    color: var(--light-gray);
+    font-size: 1.6rem;
+}
+.email{
+      color: var(--light-gray);
+    font-size: 1.6rem; 
+}
+.head-office-location{
+    color: var(--light-gray);
+    font-size: 1.6rem; 
 }
 .section-footer{
 display: flex;
@@ -174,11 +190,9 @@ align-items: center;
 flex-wrap: wrap;
 width: 100%;
 height: 80vh;
-
 position: relative;
 left: 20px;
 gap: 50px;
-top: 100px;
 
 
 
@@ -214,6 +228,7 @@ margin: 10px;
 .Privacy-logo{
 position: relative;
 left: 30px;
+width: 165px;
 
 
 
